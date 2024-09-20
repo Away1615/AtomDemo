@@ -6,6 +6,14 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		1A63F9F72C9D6C930059C628 /* AtomKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1A63F9F62C9D6C930059C628 /* AtomKit */; };
+		1A63F9FA2C9D70F30059C628 /* AtomKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1A63F9F92C9D70F30059C628 /* AtomKit */; };
+		1A63F9FD2C9D79690059C628 /* AtomKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1A63F9FC2C9D79690059C628 /* AtomKit */; };
+		1A63FA042C9DC8D70059C628 /* AtomKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1A63FA032C9DC8D70059C628 /* AtomKit */; };
+		1A63FA072C9DC9860059C628 /* AtomKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1A63FA062C9DC9860059C628 /* AtomKit */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		1A63F9C32C9D68140059C628 /* AtomDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AtomDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -36,6 +44,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A63FA042C9DC8D70059C628 /* AtomKit in Frameworks */,
+				1A63F9FD2C9D79690059C628 /* AtomKit in Frameworks */,
+				1A63F9FA2C9D70F30059C628 /* AtomKit in Frameworks */,
+				1A63F9F72C9D6C930059C628 /* AtomKit in Frameworks */,
+				1A63FA072C9DC9860059C628 /* AtomKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +91,11 @@
 			);
 			name = AtomDemo;
 			packageProductDependencies = (
+				1A63F9F62C9D6C930059C628 /* AtomKit */,
+				1A63F9F92C9D70F30059C628 /* AtomKit */,
+				1A63F9FC2C9D79690059C628 /* AtomKit */,
+				1A63FA032C9DC8D70059C628 /* AtomKit */,
+				1A63FA062C9DC9860059C628 /* AtomKit */,
 			);
 			productName = AtomDemo;
 			productReference = 1A63F9C32C9D68140059C628 /* AtomDemo.app */;
@@ -107,6 +125,9 @@
 			);
 			mainGroup = 1A63F9BA2C9D68140059C628;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				1A63FA052C9DC9860059C628 /* XCLocalSwiftPackageReference "AtomKit" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 1A63F9C42C9D68140059C628 /* Products */;
 			projectDirPath = "";
@@ -333,6 +354,36 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		1A63FA052C9DC9860059C628 /* XCLocalSwiftPackageReference "AtomKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = AtomKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1A63F9F62C9D6C930059C628 /* AtomKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AtomKit;
+		};
+		1A63F9F92C9D70F30059C628 /* AtomKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AtomKit;
+		};
+		1A63F9FC2C9D79690059C628 /* AtomKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AtomKit;
+		};
+		1A63FA032C9DC8D70059C628 /* AtomKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AtomKit;
+		};
+		1A63FA062C9DC9860059C628 /* AtomKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AtomKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1A63F9BB2C9D68140059C628 /* Project object */;
 }
